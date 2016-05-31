@@ -1,0 +1,17 @@
+{
+  "name": "quack-alert",
+  "version": "1.0.0",
+  "description": "Tune window.alert to add an awesome quack sound",
+  "main": "dist/quack-alert.js",
+  "scripts": {
+    "encode": "node encode.js",
+    "babel": "babel src/quack-alert.js --out-file dist/quack-alert.js",
+    "build": "npm run-script babel && npm run-script encode",
+    "test": "echo 'test is doubt !!!'"
+  },
+  "author": "Baptiste Rios Campo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
