@@ -1,6 +1,6 @@
 {
   "name": "quack-alert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tune window.alert to add an awesome quack sound",
   "main": "dist/quack-alert.js",
   "scripts": {

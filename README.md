@@ -11,7 +11,7 @@ Transform the alert function in a more awesome version with a Quack sound !
 $ npm install --save-dev quack-alert
 ```
 
-### Usage
+### Import
 
 1. with html
 
@@ -23,4 +23,10 @@ $ npm install --save-dev quack-alert
 
 ```js
 require('quack-alert');
+```
+
+### Usage
+
+```js
+alert('Quack !');
 ```
